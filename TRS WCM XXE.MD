@@ -4,6 +4,7 @@ An XXE issue was discovered in WCM, which can be used to read any file in the sy
 
 ## POC
 The normal request is as follows
+
 ![](img/wcmxxe0.png)
 
 *ObjectXml* parameter content looks like this
