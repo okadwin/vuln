@@ -1,8 +1,8 @@
-#TRS WCM XXE
-##Description
+# TRS WCM XXE
+## Description
 An XXE issue was discovered in WCM, which can be used to read any file in the system or scan the internal network without authentication. When submitting a post request to `/infogate/collect`, the *ObjectXml* parameter is in XML format, and the server doesn't properly verify the validity when processing XML data.
 
-##POC
+## POC
 The normal request is as follows
 ![](img/wcmxxe0.png)
 
